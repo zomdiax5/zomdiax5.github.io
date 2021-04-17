@@ -3,41 +3,39 @@
 	<head>
 		<title>Suseł Stronowanie</title>
 		<meta charset="UTF-8" />
-		<style>
-			#body
-			{
-				background: linear-gradient(rgb(215, 249, 255),rgb(190,190,255)) no-repeat fixed;
-			}
-		</style>
+        <link href="mainStyle.css" rel="stylesheet">
 	</head>
-	<body id="body">
-		<form>
-			<label for="kilometry">Podaj Kilometry: </label>
-			<input type="text" id="kilometry" />
-			<label id="mile">km</label>
-			<br/>			
-			<input type="button" value="Oblicz" onclick="kmToMi()" />
-			<br/><br/>
-			<label for="Litry">Podaj Litry: </label>
-			<input type="text" id="Litry" />
-			<label id="gale">km</label>
-			<br/>			
-			<input type="button" value="Oblicz" onclick="LToGal()" />
-		</form>
-
-		<script>
-			function kmToMi(){
-				const input = Number(document.getElementById("kilometry").value);		
-				const output = input * 0.5399568;
-				
-				document.getElementById("mile").innerHTML = `km to ${output.toFixed(2)} międzynarodowych mil morskich`;
-			}
-			function LToGal(){
-				const input = Number(document.getElementById("Litry").value);		
-				const output = input * 0.264172052;
-			
-				document.getElementById("gale").innerHTML = `L to ${output.toFixed(2)} galonów amerykańskich`;
-			}
-		</script>
+	<body>
+        <div class="header">
+            <h1 class="websiteButton"><a class="websiteButton" href = "index.html">Strona</a></h1>
+            <div class="header-button">
+                <a class="topButton" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pog</a>
+                <a class="topButton" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pog</a>
+                <a class="topButton" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pog</a>
+                <a class="topButton" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pog</a>
+                <a class="topButton" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pog</a>
+                <a class="topButton" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pog</a>
+                <a class="topButton" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pog</a>
+                <a class="topButton" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pog</a>
+                <a class="topButton" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pog</a>
+            </div>
+        </div>
+        <div class="main">
+            <p>
+                test
+            </p>
+            <p>
+                test
+            </p>
+            <p>
+                test
+            </p>
+            <p>
+                test
+            </p>
+            <p>
+                test
+            </p>
+        </div>
 	</body>
 </html>
