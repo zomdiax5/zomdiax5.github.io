@@ -13,6 +13,10 @@
     overflow: hidden;
     background-color: rgba(211, 211, 211, 0.384);
     padding: 1px 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     width: calc(100%-1px);
 }
 .header a {
@@ -47,8 +51,8 @@ h1 {
 .main
 {
     margin-top: 0.5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     background: rgba(219, 219, 219, 0.726);
     border-radius: 5px;
     border-color: rgba(185, 185, 185, 0.74);
