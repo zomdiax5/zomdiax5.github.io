@@ -11,17 +11,15 @@
 .header
 {
     overflow: hidden;
-    background-color: rgba(211, 211, 211, 0.384);
-    padding: 1px 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    width: calc(100%-1px);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1px 20px;
+    width: calc(100vw - 40px);
+    position: fixed;
+    margin-top: 1%;
 }
 .header a {
     float: left;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -30,15 +28,32 @@
     border-radius: 4px;
 }
 .header a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
 }
-.header a.active {
-    background-color: dodgerblue;
+.header a:active {
+    background-color: rgb(53, 53, 53);
     color: white;
 }
 .header-button {
     float: right;
+}
+.start
+{
+    background-image: url("background.png");
+    width: calc(100vw-40px);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: auto;
+    margin-top: -1%;
+    padding-top: 5%;
+}
+.start p
+{
+    text-align: center;
+    color: white;
+    font-size:xx-large;
 }
 body{
     margin: 0px;
@@ -50,7 +65,7 @@ h1 {
 }
 .main
 {
-    margin-top: 0.5%;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     background: rgba(219, 219, 219, 0.726);
