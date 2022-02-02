@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(35, 1fr) 5fr;
+    grid-template-rows: repeat(35, 1fr);
+    margin: 0;
+    padding: 0;
+    width: 98vw;
+    height: 98vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+#main{
+    grid-column: 36;
+    grid-row: 1/36;
+}
+* {
+    font-size: 110%;
+}
