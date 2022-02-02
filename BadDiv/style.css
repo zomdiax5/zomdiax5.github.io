@@ -1,7 +1,7 @@
 body {
     display: grid;
-    grid-template-columns: repeat(35, 1fr) 5fr;
-    grid-template-rows: repeat(35, 1fr);
+    grid-template-columns: repeat(75, 1fr) 5fr;
+    grid-template-rows: repeat(75, 1fr);
     margin: 0;
     padding: 0;
     width: 98vw;
@@ -12,8 +12,8 @@ body {
     padding-right: 1vw;
 }
 #main{
-    grid-column: 36;
-    grid-row: 1/36;
+    grid-column: 76;
+    grid-row: 1/76;
 }
 * {
     font-size: 110%;
